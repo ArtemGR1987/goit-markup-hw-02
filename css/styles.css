@@ -1,18 +1,29 @@
-body {
-  background-color: #ffffff;
-  color: #757575;
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
 }
 
 
-/*цвет основного текста #FFFFFF*/
+
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+
+/*цвет основного текста #212121/
 
 /*вторичный цвет текста #757575*/
 
 /* акцент #2196F3 */
 
+
+
 /* Логотип */
 .logo-web {
-  color: #2196f3;
+ color: var(--accent-color);
 }
 
 .logo-studio {
@@ -27,7 +38,7 @@ body {
 
 /* Site-nav */
 .studio {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav :hover,
@@ -41,16 +52,16 @@ body {
 }
 
 .p-k {
-    color: #212121;
+   color: var(--title-text-color);
 }
 
 
 .mail {
-    color: #2196f3;
+    color: var(--accent-color);
 }
 
 .tel {
-    color: #757575;
+   color: var(--primary-text-color);
 }
 
 
@@ -67,29 +78,29 @@ body {
 
 .button {
     color: #FFFFFF;
-    background-color: #2196f3;
+    background-color: var(--accent-color);
 }
 
 
 /* Наши преимущества */
 .section-title {
-    color: #212121;
+   color: var(--title-text-color);
 }
 
 
 /* Чем мы занимаемся */
 .our-work {
-    color: #212121;
+   color: var(--title-text-color);
 }
 
 
 /* Наша команда */
 .team {
-    color: #212121;
+  color: var(--title-text-color);
 }
 
 .team-specialist {
-    color: #212121;
+   color: var(--title-text-color);
 }
 
 
@@ -102,7 +113,7 @@ body {
 
 /* Нижний логотип */
 .bottom-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .bottom-studio {
