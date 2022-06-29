@@ -1,17 +1,141 @@
 body {
-    background-color: #FFFFFF;
-    color:#757575;
+  background-color: #ffffff;
+  color: #757575;
 }
 
 
-/*текст основного текста #212121
+/*цвет основного текста #FFFFFF*/
 
-/*вторичный цвет текста rgba(117, 117, 117, 1)*/
+/*вторичный цвет текста #757575*/
+
+/* акцент #2196F3 */
+
+/* Логотип */
+.logo-web {
+  color: #2196f3;
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.logo :hover,
+.logo :focus {
+    color: red;
+}
 
 
-.logo {
-    color:#000000;
+/* Site-nav */
+.studio {
+  color: #2196f3;
+}
+
+.site-nav :hover,
+.site-nav :focus {
+  color: red;
+}
+
+.contacts :hover,
+.contacts :focus {
+  color: red;
+}
+
+.p-k {
+    color: #212121;
+}
+
+
+.mail {
+    color: #2196f3;
+}
+
+.tel {
+    color: #757575;
+}
+
+
+/* Эффективные решения для вашего бизнеса */
+
+.solutions {
+    background-color: #2F303A;
+}
+
+
+.solutions-title {
+    color: #FFFFFF;
+}
+
+.button {
+    color: #FFFFFF;
+    background-color: #2196f3;
+}
+
+
+/* Наши преимущества */
+.section-title {
+    color: #212121;
+}
+
+
+/* Чем мы занимаемся */
+.our-work {
+    color: #212121;
+}
+
+
+/* Наша команда */
+.team {
+    color: #212121;
+}
+
+.team-specialist {
+    color: #212121;
+}
+
+
+
+
+/* Подвал */
+.bottom {
+    background-color: #2F303A;
+}
+
+/* Нижний логотип */
+.bottom-web {
     color: #2196F3;
 }
 
+.bottom-studio {
+    color: #FFFFFF;
+}
 
+
+
+.bottom-logo :hover,
+.bottom-logo :focus {
+    color: red;
+}
+
+
+/* Адрес */
+
+.adress :hover,
+.adress :focus {
+    color: red;
+}
+
+
+.map-adress {
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+
+.bottom-mail {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+.bottom-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
