@@ -43,7 +43,7 @@ body {
 }
 
 .site-nav .link.current{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav :hover,
