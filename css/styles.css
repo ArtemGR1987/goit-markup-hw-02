@@ -37,8 +37,13 @@ body {
 
 
 /* Site-nav */
-.studio {
-  color: var(--accent-color);
+
+.site-nav .link {
+    color: #212121;
+}
+
+.site-nav .link.current{
+    color: #2196F3;
 }
 
 .site-nav :hover,
@@ -51,13 +56,11 @@ body {
   color: red;
 }
 
-.p-k {
-   color: var(--title-text-color);
-}
+
 
 
 .mail {
-    color: var(--accent-color);
+    color: var(--primary-text-color);
 }
 
 .tel {
