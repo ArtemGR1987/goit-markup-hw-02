@@ -1,11 +1,8 @@
 :root {
-    --primary-text-color: #757575;
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
-
-
-
 
 body {
   background-color: #ffffff;
@@ -14,51 +11,45 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-
 /*цвет основного текста #212121/
 
 /*вторичный цвет текста #757575*/
 
 /* акцент #2196F3 */
 
-
-
 /* Логотип */
 .logo-web {
- color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .logo {
-    font-family: Raleway;
+  font-family: Raleway;
 
-       color: #000000;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+  color: #000000;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-
 
 .logo :hover,
 .logo :focus {
-    color: red;
+  color: red;
 }
-
 
 /* Site-nav */
 
 .site-nav .link {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
-.site-nav .link.current{
-    color: var(--accent-color);
+.site-nav .link.current {
+  color: var(--accent-color);
 }
 
 .site-nav :hover,
@@ -67,10 +58,10 @@ body {
 }
 
 .contacts {
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .contacts :hover,
@@ -78,232 +69,209 @@ body {
   color: red;
 }
 
-
-
-
 .mail {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .tel {
-   color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
-
 
 /* Эффективные решения для вашего бизнеса */
 
 .solutions {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 
-
 .solutions-title {
-    color: #FFFFFF;
-    font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .button {
-    color: #FFFFFF;
-    background-color: var(--accent-color);
-    font-family: inherit;
-    font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.87;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
-
 
 /* Наши преимущества */
 .section-title {
-   color: var(--title-text-color);
-font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .section-content {
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
-
 
 /* Чем мы занимаемся */
 .our-work {
-   color: var(--title-text-color);
-font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
 
 /* Наша команда */
 .team {
   color: var(--title-text-color);
-font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-specialist {
-   color: var(--title-text-color);
-font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    text-align: center;
-    letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
 
 .team-position {
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.18;
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
-
 
 /* Подвал */
 .bottom {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 /* Нижний логотип */
 .bottom-web {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-
 
 .bottom-logo :hover,
 .bottom-logo :focus {
-    color: red;
+  color: red;
 }
 
 .bottom-logo {
-    color: #FFFFFF;
-    font-family: Raleway;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* Адрес */
 
 .adress :hover,
 .adress :focus {
-    color: red;
+  color: red;
 }
-
 
 .map-adress {
-    color: #FFFFFF;
-    background-color: #2F303A;
+  color: #ffffff;
+  background-color: #2f303a;
 
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
 
 .bottom-mail {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
 
 .bottom-tel {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 
-    font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
-
 
 /* ПОРТФОЛИО */
 
-
-
 /* Кнопки */
 
-
 .button-filters {
-    color: var(--title-text-color);
-    background-color: #F5F4FA;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
 
-    font-family: inherit;
+  font-family: inherit;
 
-    font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .filters :hover,
 .filters :focus {
-    color: red;
+  color: red;
 }
 
 /* Примеры работ */
 
 .project-name {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 
-    font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .project-filter {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 
-    font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.87;
-        letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
-
-
