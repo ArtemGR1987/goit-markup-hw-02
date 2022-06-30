@@ -270,6 +270,13 @@ font-style: normal;
     background-color: #F5F4FA;
 
     font-family: inherit;
+
+    font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
 }
 
 .filters :hover,
@@ -281,10 +288,22 @@ font-style: normal;
 
 .project-name {
     color: var(--title-text-color);
+
+    font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
 }
 
 .project-filter {
     color: var(--primary-text-color);
+
+    font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
 }
 
 
