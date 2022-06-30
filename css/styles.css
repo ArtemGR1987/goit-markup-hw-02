@@ -85,7 +85,7 @@ body {
 
 .solutions-title {
   color: #ffffff;
-  font-style: normal;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -111,7 +111,7 @@ body {
 /* Наши преимущества */
 .section-title {
   color: var(--title-text-color);
-  font-style: normal;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -120,7 +120,6 @@ body {
 }
 
 .section-content {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -130,7 +129,7 @@ body {
 /* Чем мы занимаемся */
 .our-work {
   color: var(--title-text-color);
-  font-style: normal;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -141,7 +140,7 @@ body {
 /* Наша команда */
 .team {
   color: var(--title-text-color);
-  font-style: normal;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -151,7 +150,7 @@ body {
 
 .team-specialist {
   color: var(--title-text-color);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -160,7 +159,6 @@ body {
 }
 
 .team-position {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
@@ -204,7 +202,6 @@ body {
   color: #ffffff;
   background-color: #2f303a;
 
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -214,7 +211,6 @@ body {
 .bottom-mail {
   color: rgba(255, 255, 255, 0.6);
 
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -224,7 +220,6 @@ body {
 .bottom-tel {
   color: rgba(255, 255, 255, 0.6);
 
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -259,7 +254,6 @@ body {
 .project-name {
   color: var(--title-text-color);
 
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -269,7 +263,6 @@ body {
 .project-filter {
   color: var(--primary-text-color);
 
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
