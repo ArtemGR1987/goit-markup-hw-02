@@ -39,7 +39,7 @@ body {
 /* Site-nav */
 
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link.current{
@@ -153,3 +153,29 @@ body {
 .bottom-tel {
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+
+/* ПОРТФОЛИО */
+
+
+
+/* Кнопки */
+
+.button-filters {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+
+
+/* Примеры работ */
+
+.project-name {
+    color: var(--title-text-color);
+}
+
+.project-filter {
+    color: var(--primary-text-color);
+}
+
+
