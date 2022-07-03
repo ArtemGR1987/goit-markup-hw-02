@@ -2,13 +2,22 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --main-white-color: #FFFFFF;
+  --background-portfolio-color: #EEEEEE;
+  --main-background-black-color: #2F303A;
+  --logo-black-color: #000000;
+  --team-background-color: #F5F4FA;
+  --adress-white-color: rgba(255, 255, 255, 0.6);
+  --header-background-color: #ECECEC;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--main-white-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /*цвет основного текста #212121/
@@ -17,6 +26,7 @@ body {
 
 /* акцент #2196F3 */
 
+
 /* Логотип */
 .logo-web {
   color: var(--accent-color);
@@ -24,8 +34,8 @@ body {
 
 .logo {
   font-family: Raleway;
-
-  color: #000000;
+  text-decoration: none;
+  color: var(--logo-black-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -38,10 +48,14 @@ body {
 }
 
 /* Site-nav */
+.site-nav {
+  list-style: none;
+}
+
 
 .site-nav .link {
   color: var(--title-text-color);
-
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -62,6 +76,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  
 }
 
 .contacts :hover,
@@ -69,22 +84,28 @@ body {
   color: red;
 }
 
+.contacts {
+  list-style: none;
+}
+
 .mail {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 .tel {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 
 /* Эффективные решения для вашего бизнеса */
 
 .solutions {
-  background-color: #2f303a;
+  background-color: var(--main-background-black-color);
 }
 
 .solutions-title {
-  color: #ffffff;
+  color: var(--main-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -95,7 +116,7 @@ body {
 }
 
 .button {
-  color: #ffffff;
+  color: var(--main-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
   font-style: normal;
@@ -126,6 +147,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+.our-advantages {
+  list-style: none;
+}
+
 /* Чем мы занимаемся */
 .our-work {
   color: var(--title-text-color);
@@ -137,7 +162,20 @@ body {
   letter-spacing: 0.03em;
 }
 
+.our-works {
+  list-style: none;
+}
+
 /* Наша команда */
+
+.team-foto {
+  list-style: none;
+}
+
+.our-team {
+  background-color: var(--team-background-color);
+}
+
 .team {
   color: var(--title-text-color);
 
@@ -166,9 +204,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.specialists {
+  list-style: none;
+}
+
 /* Подвал */
 .bottom {
-  background-color: #2f303a;
+  background-color: var(--main-background-black-color);
 }
 
 /* Нижний логотип */
@@ -182,16 +224,21 @@ body {
 }
 
 .bottom-logo {
-  color: #ffffff;
+  color: var(--main-white-color);
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
 /* Адрес */
+
+.adress-link {
+  list-style: none;
+}
 
 .adress :hover,
 .adress :focus {
@@ -199,9 +246,9 @@ body {
 }
 
 .map-adress {
-  color: #ffffff;
-  background-color: #2f303a;
-
+  color: var(--main-white-color);
+  background-color: var(--main-background-black-color);
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -209,8 +256,8 @@ body {
 }
 
 .bottom-mail {
-  color: rgba(255, 255, 255, 0.6);
-
+  color: var(--adress-white-color);
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -218,8 +265,8 @@ body {
 }
 
 .bottom-tel {
-  color: rgba(255, 255, 255, 0.6);
-
+  color: var(--adress-white-color);
+  text-decoration: none;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -228,11 +275,19 @@ body {
 
 /* ПОРТФОЛИО */
 
+/* Шапка */
+.portfolio-header {
+  background-color: var(--header-background-color);
+}
+
+
+
 /* Кнопки */
 
 .button-filters {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
+
 
   font-family: inherit;
 
@@ -244,12 +299,29 @@ body {
   letter-spacing: 0.03em;
 }
 
+.buttons {
+  list-style: none;
+}
+
 .filters :hover,
 .filters :focus {
   color: red;
 }
 
 /* Примеры работ */
+
+.projects-link {
+  text-decoration: none;
+}
+
+.projects {
+  list-style: none;
+}
+
+
+.project-background {
+  background-color: var(--background-portfolio-color);
+}
 
 .project-name {
   color: var(--title-text-color);
@@ -268,3 +340,4 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
+
