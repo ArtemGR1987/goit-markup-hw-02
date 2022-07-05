@@ -313,7 +313,7 @@ body {
 
 /* Кнопки */
 
-.filters-name {
+.filter-name {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -326,7 +326,7 @@ body {
   margin: -1px;
 }
 
-.button-filters {
+.filter-btn {
   color: var(--title-text-color);
   background-color: var(--team-background-color);
 
@@ -339,12 +339,12 @@ body {
   cursor: pointer;
 }
 
-.buttons {
+.filter-list {
   list-style: none;
 }
 
-.buttons :hover,
-.buttons :focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: var(--main-white-color);
   background-color: var(--accent-color);
 }
